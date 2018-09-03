@@ -1,0 +1,19 @@
+.element{
+	display: inline-block;
+	margin-right: 10px;
+}
+.row{
+	border-bottom: 1px solid silver;
+	margin: 0 10x;
+	>.col{
+		height: 150px;
+		margin: 10px;
+		background: azure;
+		overflow: hidden;
+    	text-overflow: ellipsis;
+	}
+}
+.pagination{
+	display: flex;
+	justify-content: center;
+}
